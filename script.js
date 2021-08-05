@@ -15,7 +15,7 @@ function classificaTriangulo(texto) {
             }
         }
         if (ok == true) {
-            nros.sort();
+            //nros.sort();
             if (nros[0]+nros[1] < nros[2]){
                 resp = "ERRO: nao e um triangulo";
             } else if ((nros[0] == nros[1]) && (nros[1] == nros[2])) {
